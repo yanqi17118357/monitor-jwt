@@ -17,7 +17,7 @@ spring:
     password: 123456
     virtual-host: /
   datasource:
-    url: jdbc:mysql://192.168.6.101:3306/yanqi
+    url: jdbc:mysql://192.168.6.101:3306/itbaima
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
