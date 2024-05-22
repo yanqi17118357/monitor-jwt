@@ -2,6 +2,7 @@ package com.example.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.example.entity.dto.Client;
+import com.example.entity.vo.request.ClientDetailVO;
 
 public interface ClientService extends IService<Client> {
 
@@ -11,4 +12,5 @@ public interface ClientService extends IService<Client> {
     Client findClientByToken(String token);
     // 验证并注册
     boolean verifyAndRegister(String token);
+    void updateClientDetail(ClientDetailVO vo, Client client);
 }
