@@ -5,7 +5,6 @@ import jakarta.validation.constraints.NotNull;
 
 @Data
 public class ClientDetailVO {
-
     @NotNull
     String osArch;
     @NotNull

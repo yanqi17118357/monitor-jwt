@@ -4,6 +4,8 @@ springdoc:
   swagger-ui:
     operations-sorter: alpha
 spring:
+  influx:
+    url: http://192.168.6.101:8086
   data:
     redis:
       host: 192.168.6.101

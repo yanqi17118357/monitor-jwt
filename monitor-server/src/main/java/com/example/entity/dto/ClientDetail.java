@@ -7,7 +7,6 @@ import lombok.Data;
 @Data
 @TableName("db_client_detail")
 public class ClientDetail {
-
     @TableId
     Integer id;
     String osArch;
